@@ -1,6 +1,8 @@
-calificaciones = [85, 92,78]
-promedio = float(sum(calificaciones) / len(calificaciones))
-resultado = promedio
-def promedio_estudiante(calificaciones, promedio):
-    return resultado(float) 
-print(resultado)
+def promedio_estudiante(calificaciones):
+    if len(calificaciones) == 0:
+        return 0.0
+    
+    suma = sum(calificaciones)
+    promedio = suma / len(calificaciones)
+    
+    return float(promedio)
