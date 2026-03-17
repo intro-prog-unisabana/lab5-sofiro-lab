@@ -9,5 +9,3 @@ def main():
     encoded_message = reversed_message + str(a_count)
 
     print("Your encoded message is: " + encoded_message)
-
-main()
