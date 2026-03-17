@@ -1,8 +1,7 @@
 from mystery_module import transform_data
-import sys
 
-x = int(sys.argv[1])
-y = float(sys.argv[2])
+x = 5
+y = 2.5
 
 result = transform_data(x, y, "quiz_test")
 
