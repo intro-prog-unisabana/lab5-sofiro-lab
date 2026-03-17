@@ -5,4 +5,4 @@ y = float(input())
 
 result = transform_data(x, y, "quiz_test")
 
-print(float(result))
+print(result)
